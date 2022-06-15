@@ -31,9 +31,18 @@ header{
 
 
 
-.logo :hover{
-    transform: scale(1.1);
-}
+ @keyframes logo {
+        from {
+          transform: scale(1);
+        }
+      
+        to {
+          transform: scale(1.1);
+        }
+      }
+      
+    .logo{animation: logo 2s linear infinite;
+    }  
 
 
 .curiosidadesEstadoSP{
