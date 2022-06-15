@@ -71,7 +71,7 @@ header{
     height:90vh ;
     width:90% ;
 
-    background-image: url(/img/Valinhos.jpg);
+    background-image: url(../img/Valinhos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
